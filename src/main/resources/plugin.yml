@@ -1,0 +1,10 @@
+name: SharedBackpack
+version: 1.0
+main: de.nikey.sharedbackpack.SharedBackpack
+api-version: 1.21
+commands:
+  backpack:
+    description: Öffnet das Backpack.
+    usage: /backpack
+    aliases:
+      - bp
