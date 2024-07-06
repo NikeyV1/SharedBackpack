@@ -15,7 +15,6 @@ public class BackpackCommand implements CommandExecutor {
             player.openInventory(SharedBackpack.backpackInventory);
             return true;
         } else {
-            sender.sendMessage("Dieser Befehl kann nur von einem Spieler ausgeführt werden.");
             return false;
         }
     }
